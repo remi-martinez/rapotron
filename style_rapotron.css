@@ -1,0 +1,100 @@
+/* 
+
+------------ AVAILABLE FONTS --------------
+
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+
+*/
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(37, 37, 37);
+  color: rgb(233, 233, 233);
+}
+
+.container {
+  height: 100%
+}
+
+.center{
+  width:85%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#punchline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  text-align:center;
+  font-size:29px;
+  width:100%;
+}
+
+#auteurs {
+  margin-top: 30px;
+  text-align:center;
+  font-size:22px;
+}
+
+#generer_button {
+  text-align:center;
+  margin-top:75px;
+  width:100%;
+}
+
+.rightchoice{
+  float:right;
+  margin-right:350px;
+}
+
+.leftchoice{
+  float:left;
+  margin-left:350px;
+}
+
+.btn {
+	cursor: pointer;
+	background-color: #2389ff;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.btn:hover, .btn:active {
+	background-color: rgb(0, 108, 196);
+}
+
+img {
+  cursor: pointer;
+  width: 80px;
+  margin: 0px 6px 0 6px;
+  filter: grayscale(100%);
+  opacity: 0.4;
+}
+
+.selected {
+  filter: grayscale(0%) !important;
+  opacity: 1 !important;
+}
+
+.imgflip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
